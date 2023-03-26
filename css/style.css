@@ -37,3 +37,32 @@
   position: relative;
 }
 
+#sidebar{
+  position:fixed;
+  right:0%;
+  background-color: red;
+  height:100%;
+  width: 20%;
+}
+
+#sidebar-container{
+
+
+}
+
+#sidebar ul{
+  list-style-type: none;
+  text-align: center;
+  padding:0;
+}
+
+#sidebar ul li{
+  display:block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 0;
+}
+
+#sidebar ul li:hover{
+  background-color: #ffffff;
+}
