@@ -12,8 +12,12 @@
 }
 
 #main-navbar ul li{
-  font-family: sans-serif;
-  padding: 10px 20px;
+  /* font-family: sans-serif; */
+  /* padding: 10px 20px; */
+  float:left;
+  position: relative;
+  right:50%;
+  display:block;
 }
 
 #main-navbar ul li a{
