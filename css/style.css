@@ -3,6 +3,12 @@
   overflow: hidden;
 }
 
+#main-navbar-container{
+  float: left;
+  width:100%;
+  position: relative;
+}
+
 #main-navbar ul{
   list-style-type: none;
   position:relative;
@@ -32,12 +38,6 @@
   background-color: #000000;
 }
 
-#main-navbar-container{
-  float: left;
-  width:100%;
-  position: relative;
-}
-
 #sidebar{
   position:fixed;
   right:0%;
@@ -48,7 +48,6 @@
 
 #onpage{
   text-decoration: underline overline;
-
 }
 
 #sidebar ul{
